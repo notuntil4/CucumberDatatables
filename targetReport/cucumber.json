@@ -1,0 +1,145 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 6046583295,
+              "status": "passed"
+            },
+            "match": {
+              "location": "ContactUsSteps.setup()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Submit valid data via contact us form",
+        "description": "",
+        "id": "submit-user-information-via-contact-us-form;submit-valid-data-via-contact-us-form",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 816829916,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I access webdriveruniversity.com",
+            "match": {
+              "location": "ContactUsSteps.i_access_webdriveruniversity_com()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 150781542,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I click on the contact us button",
+            "match": {
+              "location": "ContactUsSteps.i_click_on_the_contact_us_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 496255022,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I enter a valid first name",
+            "match": {
+              "location": "ContactUsSteps.i_enter_a_valid_first_name()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 44880992,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I enter a valid last name",
+            "match": {
+              "location": "ContactUsSteps.i_enter_a_valid_last_name()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 43359184,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I enter a valid email address",
+            "match": {
+              "location": "ContactUsSteps.i_enter_a_valid_email_address()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 81495132,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I enter comments",
+            "match": {
+              "location": "ContactUsSteps.i_enter_comments(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Hello World",
+                  "Au revoir"
+                ],
+                "line": 10
+              },
+              {
+                "cells": [
+                  "Hasta la Vista",
+                  "Bye Bye Bye"
+                ],
+                "line": 11
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 36471911,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I click on the submit button",
+            "match": {
+              "location": "ContactUsSteps.i_click_on_the_submit_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 55540,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "The information should be successfully submitted via contact us form",
+            "match": {
+              "location": "ContactUsSteps.the_information_should_be_successfully_submitted_via_contact_us_form()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Submit user information via contact us form",
+    "description": "",
+    "id": "submit-user-information-via-contact-us-form",
+    "keyword": "Feature",
+    "uri": "ContactUs.feature"
+  }
+]
